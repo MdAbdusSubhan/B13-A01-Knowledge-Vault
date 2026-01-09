@@ -24,6 +24,13 @@
     color: black;
 }
 
+.color-1{
+    color: #001931;
+}
+
+.color-2{
+    color:#627382;
+}
 
 /* header's nav related styles */
 
@@ -123,6 +130,56 @@ nav ul li a{
     color: black;
 }
 
+/* main styles */
+main{
+    max-width: 1200px;
+    margin: 110px auto;
+}
+
+/* notes section styles */
+#notes{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.notes-title{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.notes-description{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.card h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 20px;
+}
 
 
 
