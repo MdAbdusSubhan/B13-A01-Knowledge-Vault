@@ -161,6 +161,7 @@ main{
 .card{
     padding: 20px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 
 .card img{
@@ -218,4 +219,25 @@ main{
 .fa-circle-check{
     
     color: #30B868;
+}
+
+/* earlyAccess section styles */
+
+#earlyAccess{
+    margin-bottom: 110px;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 0;
+}
+
+#earlyAccess h2{
+    font-size: 35px;
+}
+
+#earlyAccess p{
+    
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 12px;
 }
